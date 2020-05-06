@@ -9,35 +9,32 @@
 
         <header>
             <div class="">
-                Logo
-            </div>
-            <div class="">
-                navigation
+                <h1>News Article Evaluator</h1>
             </div>
         </header>
 
         <main>
             <section>
                 <form class="" onsubmit="return Client.handleSubmit(event)">
-                    <label for="url">Type in a URL to the text you want to analyse</label>
-                    <input id="url" type="text" name="input" value="" placeholder="URL">
-                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                    <label for="url">Type in the URL to the article that you want to analyse</label>
+                    <input id="url" type="text" name="input" value="" placeholder="Insert URL here...">
+                    <input type="submit" name="" value="Submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
                 </form>
             <section>
 
             <section>
-                <strong>Analysis Results:</strong>
+                <h2>Analysis Results:</h2>
                 <ul>
                     <li>
-                        <h4>Text Polarity:</h3>
+                        <h3>Text Polarity:</h3>
                         <p id="polarity"></p>
-                        <h4>Confidence:</h4>
+                        <h3>Confidence:</h3>
                         <p id="polarity_confidence"></p>
                     </li>
                     <li>
-                        <h4>Text Subjectivity:</h3>
+                        <h3>Text Subjectivity:</h3>
                         <p id="subjectivity"></p>
-                        <h4>Confidence:</h4>
+                        <h3>Confidence:</h3>
                         <p id="subjectivity_confidence"></p>
                     </li>
                     <li>
@@ -49,7 +46,7 @@
         </main>
 
         <footer>
-            <p>This is a footer</p>
+            <p>Udacity Front End Developer - Project 4</p>
         </footer>
 
         <script>
